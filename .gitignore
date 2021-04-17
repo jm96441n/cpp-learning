@@ -8,6 +8,9 @@
 # Unignore Makefile
 !Makefile
 
+# Unignore Dockerfile
+!Dockerfile
+
 # Ignore .o files
 *.o
 
