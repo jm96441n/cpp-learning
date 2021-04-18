@@ -7,4 +7,4 @@ run:
 	docker run --rm --name $(name) \
 		-v $(PWD)/chap$(chap):/src \
 		-it jmaguire5588/ubclang:latest \
-		/bin/bash -c "clang++ -std=c++17 ${name}.cpp -o prog && ./prog"
+		/bin/bash -c "clang++ -std=c++17 ${name}.cpp -pthread -Wall -o prog && ./prog"
