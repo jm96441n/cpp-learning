@@ -4,7 +4,6 @@
 
 using namespace std;
 
-// Class with move semantics
 class Vector {
   public:
     Vector(int s) // initialize list of doubles
