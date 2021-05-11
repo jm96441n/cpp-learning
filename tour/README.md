@@ -4,7 +4,7 @@ Work for specific chapters are organized by file. To compile and run specific fi
 the make commands provided. To build the docker image for compiling from the root directory just run:
 ```
 make build
-``` 
+```
 To run a specific cpp file navigate to that directory and run 
 ```
 make -C ../ run chap=CHAPNUM name=FILENAME
